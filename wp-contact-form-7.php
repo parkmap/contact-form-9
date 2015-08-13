@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Contact Form 7
-Plugin URI: http://contactform7.com/
-Description: Just another contact form plugin. Simple but flexible.
-Author: Takayuki Miyoshi
-Author URI: http://ideasilo.wordpress.com/
-Text Domain: contact-form-7
+Plugin Name: Contact Form 9
+Plugin URI: https://github.com/parkmap/contact-form-9/
+Description: Simple and great look
+Author: parkmap
+Author URI: https://github.com/parkmap/
+Text Domain: contact-form-9
 Domain Path: /languages/
 Version: 4.2.2
 */
@@ -26,6 +26,9 @@ Version: 4.2.2
     along with this program; if not, write to the Free Software
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
+
+
+
 
 define( 'WPCF7_VERSION', '4.2.2' );
 
