@@ -1,4 +1,4 @@
-=== Contact Form 7 ===
+=== Contact Form 9 ===
 Contributors: parkmap
 Tags: contact, form, contact form, feedback, email, ajax, captcha, akismet, multilingual
 Requires at least: 4.1
