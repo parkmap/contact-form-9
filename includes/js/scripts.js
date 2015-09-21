@@ -1,5 +1,21 @@
 (function($) {
 
+
+	$(".wpcf7-form-control").keypress(function(event) {
+        if(event.keyCode == 13) { 
+        textboxes = $(".wpcf7-form-control");
+        // debugger;
+        currentBoxNumber = textboxes.index(this);
+        if (textboxes[currentBoxNumber + 1] != null) {
+            nextBox = textboxes[currentBoxNumber + 1]
+            nextBox.focus();
+            nextBox.select();
+            event.preventDefault();
+            return false 
+            }
+        }
+    });
+
 	if (typeof _wpcf7 == 'undefined' || _wpcf7 === null)
 		_wpcf7 = {};
 
